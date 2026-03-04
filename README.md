@@ -1,56 +1,66 @@
 # Immune Landscape and Immune Escape in LUSC
 
-Analysis of the immune microenvironment in **lung squamous cell carcinoma (LUSC)** using immune gene signatures and machine learning to characterize immune phenotypes and mechanisms of immune escape.
+Computational analysis of the immune microenvironment in **lung squamous cell carcinoma (LUSC)** using immune gene signatures, dimensionality reduction, and machine learning.
+
+This project investigates how **immune activation, cytotoxicity, tertiary lymphoid structures (TLS), and T cell exhaustion** shape tumor immune phenotypes and contribute to immune escape.
 
 ---
 
-# Overview
+## Graphical Summary
 
-Tumor immune microenvironments show substantial heterogeneity across patients. Understanding these differences is essential for predicting response to immunotherapy and identifying mechanisms of immune evasion.
+The analysis suggests a potential immune trajectory:
 
-In this project we analyze LUSC tumor samples using four immune gene signatures:
+Cold tumors → immune activation → cytotoxic response → T cell exhaustion → immune escape
 
-- Tumor Inflammation Signature (TIS)
-- Cytotoxic T cell activity
-- T cell exhaustion
-- Tertiary lymphoid structures (TLS)
-
-Dimensionality reduction and machine learning approaches reveal distinct immune phenotypes and regulatory mechanisms shaping tumor immune behavior.
+Chronic immune stimulation may induce checkpoint signaling that limits anti-tumor immunity.
 
 ---
 
-# Key Findings
+## Key Immune Signatures
 
-## Distinct immune phenotypes in LUSC tumors
+Four immune programs were quantified across tumor samples:
 
-UMAP-based immune landscape analysis revealed multiple tumor immune phenotypes:
+- **Tumor Inflammation Signature (TIS)**
+- **Cytotoxic T cell activity**
+- **T cell exhaustion**
+- **Tertiary lymphoid structures (TLS)**
 
-- Inflamed
-- Cold
-- TLS-rich
-- Exhausted
-
-Inflamed tumors show strong immune activation and cytotoxic activity, while Cold tumors display minimal immune infiltration.
+These signatures capture major dimensions of tumor immune behavior.
 
 ---
 
-## Machine learning identifies immune activation as the primary driver
+## Main Findings
+
+### Distinct immune phenotypes in LUSC
+
+UMAP projection of immune signatures revealed heterogeneous tumor immune landscapes with four dominant phenotypes:
+
+- **Inflamed**
+- **Cold**
+- **TLS-rich**
+- **Exhausted**
+
+Inflamed tumors display strong immune activation and cytotoxic signaling, while Cold tumors show minimal immune infiltration.
+
+---
+
+### Machine learning identifies immune activation as the dominant driver
 
 A **Random Forest classifier** was trained using immune signatures.
 
-Results:
+Key results:
 
 - Cross-validated accuracy ≈ **0.74**
-- Most important feature: **Tumor Inflammation Signature (TIS)**
+- Most informative feature: **Tumor Inflammation Signature (TIS)**
 - Additional contributors: **TLS** and **cytotoxic activity**
 
-These findings indicate that global immune activation represents the main axis structuring immune heterogeneity in LUSC tumors.
+These findings indicate that **global immune activation is the primary axis structuring immune heterogeneity in LUSC tumors**.
 
 ---
 
-## Immune activation correlates with checkpoint signaling
+### Immune activation correlates with checkpoint signaling
 
-Checkpoint score based on expression of key immune checkpoint genes:
+Checkpoint signaling score based on expression of key immune checkpoint genes:
 
 PDCD1
 CD274
@@ -62,42 +72,42 @@ ENTPD1
 TOX
 
 
-Immune activation strongly correlates with checkpoint signaling, suggesting a negative feedback regulatory mechanism that limits anti-tumor immune responses.
+Immune activation strongly correlates with checkpoint signaling, suggesting a **negative feedback regulatory mechanism** that suppresses T-cell activity.
 
 ---
 
-## Immune state model reveals functional and dysfunctional immune states
+### Immune state model
 
-Tumors were categorized based on cytotoxicity and exhaustion:
+Tumors were classified into four immune states based on cytotoxicity and exhaustion:
 
-| Immune State | Description |
-|---|---|
-| Cold | low cytotoxicity, low exhaustion |
-| Functional | high cytotoxicity, low exhaustion |
-| Suppressed | low cytotoxicity, high exhaustion |
-| Exhausted | high cytotoxicity, high exhaustion |
+| Immune State | Cytotoxicity | Exhaustion |
+|---|---|---|
+| Cold | Low | Low |
+| Functional | High | Low |
+| Suppressed | Low | High |
+| Exhausted | High | High |
 
-Exhausted tumors exhibited significantly higher checkpoint signaling than other immune states.
+Exhausted tumors exhibited **significantly higher checkpoint signaling** than other states.
 
 ---
 
-## Immune trajectory toward exhaustion
+### Immune trajectory toward exhaustion
 
-An immune trajectory model suggests progression:
+The data suggest a progression model:
 
 Cold → Functional cytotoxic → Exhausted → Immune escape
 
 
-Chronic immune stimulation may drive progressive T cell exhaustion and checkpoint activation in inflamed tumors.
+Persistent immune activation may drive checkpoint upregulation and **progressive T-cell dysfunction**.
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 lusc-immune-escape-analysis
 │
-├── figures/ # Final figures
-├── results_safe/ # Additional figures and results
+├── figures/ # Final manuscript figures
+├── results_safe/ # Additional results and exploratory plots
 ├── LUSC_immune_escape_analysis.ipynb
 ├── genes.tsv
 └── README.md
@@ -105,9 +115,9 @@ lusc-immune-escape-analysis
 
 ---
 
-# Methods
+## Methods
 
-Main computational approaches used:
+Computational approaches used in this project:
 
 - RNA-seq immune signature scoring
 - UMAP dimensionality reduction
@@ -116,34 +126,38 @@ Main computational approaches used:
 - Correlation analysis
 - Immune state modeling
 - Pathway enrichment analysis
+- Gene network visualization
 
 ---
 
-# Technologies
+## Technologies
+
+Python ecosystem:
 
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- Seaborn
 - Matplotlib
+- Seaborn
 - UMAP
 - Jupyter Notebook
 
 ---
 
-# Biological Interpretation
+## Biological Interpretation
 
 The results support a model in which:
 
-1. Immune activation promotes anti-tumor cytotoxic responses  
-2. Chronic immune activation induces immune checkpoint pathways  
-3. Persistent signaling leads to T cell exhaustion and immune escape
+1. Tumor immune activation initiates cytotoxic anti-tumor responses  
+2. Chronic stimulation induces immune checkpoint pathways  
+3. Persistent checkpoint signaling leads to T-cell exhaustion  
+4. This process contributes to **tumor immune escape**
 
-Understanding these processes may help identify tumors that respond to immune checkpoint blockade therapies.
+Understanding these mechanisms may improve identification of tumors responsive to **immune checkpoint blockade therapies**.
 
 ---
 
-# Author
-
+## Author
+Agata Gabara
 Bioinformatics project exploring immune heterogeneity and immune escape mechanisms in lung cancer.
