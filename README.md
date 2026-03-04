@@ -197,6 +197,4 @@ Computational analysis of tumor immune phenotypes using immune gene signatures a
 
 # Author
 
-# Agata Gabara
-
 Bioinformatics project exploring **immune heterogeneity and immune escape mechanisms in lung cancer**.
