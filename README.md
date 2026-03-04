@@ -184,6 +184,101 @@ The results support a model in which:
 Understanding these transitions may help identify tumors responsive to **immune checkpoint blockade therapies**.
 
 ---
+# Figure Gallery
+
+## Immune Landscape
+
+![UMAP immune landscape](results_safe/FIG_UMAP_panel_subtype_TIS_TLS_EXH_CYTO.png)
+
+![UMAP immune subtypes](results_safe/UMAP_immune_subtypes.png)
+
+![PCA immune subtypes](results_safe/PCA_immune_subtypes.png)
+
+---
+
+## Immune Activation and Checkpoint Signaling
+
+![Activation vs checkpoints](results_safe/FIG_activation_to_checkpoints.png)
+
+![Activation vs checkpoints by subtype](results_safe/FIG3B_activation_to_checkpoints_by_subtype.png)
+
+![Checkpoint signaling across states](results_safe/FIG4_checkpoint_across_states.png)
+
+![Checkpoint medians](results_safe/FIG4_checkpoint_medians.png)
+
+![Checkpoint network](results_safe/FIG_checkpoint_network.png)
+
+---
+
+## Immune State Models
+
+![Immune state diagram](results_safe/FIG_immune_state_diagram.png)
+
+![Cytotoxic vs exhaustion](results_safe/FIG_cytotoxic_vs_exhaustion_state.png)
+
+![Immune trajectory](results_safe/FIG5_immune_trajectory.png)
+
+---
+
+## Machine Learning Analysis
+
+![Feature importance](results_safe/FIG_ML_feature_importance.png)
+
+![Confusion matrix](results_safe/FIG_ML_confusion_matrix.png)
+
+![ROC multiclass](results_safe/FIG_ML_CV_ROC_multiclass.png)
+
+![SHAP summary](results_safe/FIG_SHAP_summary.png)
+
+![SHAP feature importance](results_safe/FIG_SHAP_bar_importance.png)
+
+---
+
+## Immune Signatures
+
+![Immune signatures heatmap](results_safe/immune_signatures_heatmap_log2FC.png)
+
+![Immune signatures summary](results_safe/immune_signatures_summary_bar.png)
+
+![Clustermap signatures](results_safe/FIG_clustermap_samples_signatures.png)
+
+![Dendrogram signatures](results_safe/FIG_dendrogram_samples_signatures.png)
+
+---
+
+## Pathway and Gene Network Analysis
+
+![Pathway enrichment](results_safe/FIG_pathway_enrichment.png)
+
+![Gene network](results_safe/FIG_gene_network_thr0.55.png)
+
+---
+
+## Differential Expression
+
+![Volcano plot hot vs cold](results_safe/volcano_hot_vs_cold.png)
+
+![Volcano Welch test](results_safe/volcano_Welch_hot_vs_cold.png)
+
+![Top genes volcano](results_safe/volcano_labeled_TOP10.png)
+
+---
+
+## Immune Cell Infiltration
+
+![Immune cell infiltration](results_safe/immune_cell_infiltration.png)
+
+![Immune infiltration visualization](results_safe/immune_cell_infiltration_pretty.png)
+
+---
+
+## Heatmaps
+
+![Top genes heatmap](results_safe/heatmap_top30.png)
+
+![TLS immune heatmap](results_safe/heatmap_TLS_T_NK_IFNg_log2FC.png)
+
+---
 
 # Citation
 
