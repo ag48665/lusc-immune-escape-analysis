@@ -118,8 +118,6 @@ UMAP projection of immune signatures revealing heterogeneous tumor immune phenot
 
 ## Immune activation vs checkpoint signaling
 
-![Checkpoint correlation](results_safe/FIG_activation_to_checkpoints.png)
-
 Immune activation strongly correlates with checkpoint expression across tumors.
 
 ---
