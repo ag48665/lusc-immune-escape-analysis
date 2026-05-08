@@ -36,6 +36,22 @@ The study identifies reproducible associations between immune activation and che
 - No statistically significant overall survival differences between immune activation groups
 
 ---
+## Potential Clinical Relevance
+
+This project provides a transcriptomic framework for characterizing immune heterogeneity in lung squamous cell carcinoma (LUSC). By integrating immune activation, cytotoxicity, T-cell exhaustion, tertiary lymphoid structure, and checkpoint signaling signatures, the analysis identifies distinct immune states within LUSC tumors.
+
+Although this work is exploratory and not intended for direct clinical decision-making, it may be useful for medical and translational research professionals in several ways:
+
+- **Immune stratification of tumors:** The framework may help distinguish immune-cold tumors from inflamed tumors with cytotoxic and exhaustion-associated features.
+- **Biomarker development:** The identified association between tumor inflammation and checkpoint signaling may support future development of transcriptomic biomarkers for immunotherapy response.
+- **Immunotherapy research:** Tumors with high immune activation and high checkpoint signaling may represent biologically relevant candidates for further investigation in immune checkpoint inhibitor studies.
+- **Clinical trial design:** Immune-state classification could potentially be used to define molecularly informed patient subgroups in retrospective or prospective translational studies.
+- **Hypothesis generation:** The results may help generate hypotheses about adaptive immune resistance, T-cell exhaustion, and immune escape mechanisms in LUSC.
+
+Importantly, survival analyses in this study did not show statistically significant differences between immune activation or exhaustion groups. Therefore, these findings should be interpreted as research-oriented and require further validation in immunotherapy-treated cohorts, single-cell datasets, spatial profiling studies, and protein-level assays before clinical application.
+
+---
+
 
 ## Immune Signatures
 
