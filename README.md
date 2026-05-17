@@ -226,14 +226,6 @@ Key findings were independently validated in the GEO GSE37745 cohort, confirming
 
 ---
 
-## Citation
-
-If you use this repository or analysis framework, please cite:
-
-> Gabara A. *Transcriptomic immune profiling identifies checkpoint-associated immune states in lung squamous cell carcinoma.*
-
----
-
 ## Data Availability
 
 Datasets used in this study are publicly available:
