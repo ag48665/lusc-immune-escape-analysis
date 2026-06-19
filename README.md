@@ -64,43 +64,27 @@ The study identifies reproducible associations between immune activation and che
 
 ## Main Figures
 
-### Figure 1. Transcriptomic Immune Landscape of TCGA-LUSC Tumors
+## Main Figures
 
-<img src="figures/Figure 1. Transcriptomic immune landscape of TCGA-LUSC tumors.png" width="900">
+### Figure 1. Transcriptomic Immune Landscape
 
-UMAP visualization reveals heterogeneous immune organization and distinct transcriptomic immune states across LUSC tumors.
+![Figure 1](figures/figure1.png)
 
----
+### Figure 2. Immune Activation and Checkpoint Signaling
 
-### Figure 2. Association Between Immune Activation and Checkpoint Signaling
+![Figure 2](figures/figure2.png)
 
-<img src="figures/Figure 2. Association between immune activation and checkpoint signaling.png" width="900">
+### Figure 3. External Validation
 
-Strong positive association between tumor inflammation signatures and immune checkpoint activity.
-
----
-
-### Figure 3. External Validation of Immune Activation and Checkpoint Signaling
-
-<img src="figures/Figure 3. Independent validation of immune activation and checkpoint signaling.png" width="900">
-
-Independent GEO cohort confirms the immune activation–checkpoint signaling relationship.
-
----
+![Figure 3](figures/figure3.png)
 
 ### Figure 4. Kaplan–Meier Survival Analysis
 
-<img src="figures/Figure 4. Kaplan–Meier survival analysis according to exhaustion-associated immune states.png" width="900">
+![Figure 4](figures/figure4.png)
 
-Overall survival comparison between transcriptomic immune states.
+### Table 1. Clinical Characteristics
 
----
-
-### Table 1. Clinical and Transcriptomic Characteristics
-
-<img src="figures/Table 1. Clinical and transcriptomic characteristics of the TCGA-LUSC cohort.png" width="900">
-
-Summary of clinical and transcriptomic characteristics used throughout the study.
+![Table 1](figures/table1.png)
 
 ---
 
