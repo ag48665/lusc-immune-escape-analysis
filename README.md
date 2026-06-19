@@ -64,15 +64,13 @@ The study identifies reproducible associations between immune activation and che
 
 ## Main Figures
 
-## Main Figures
-
 ### Figure 1. Transcriptomic Immune Landscape
 
 ![Figure 1](figures/figure1.png)
 
 ### Figure 2. Immune Activation and Checkpoint Signaling
 
-![Figure 2](figures/figure2.png)
+![Figure 2](figures/figure2.jpg)
 
 ### Figure 3. External Validation
 
@@ -82,7 +80,7 @@ The study identifies reproducible associations between immune activation and che
 
 ![Figure 4](figures/figure4.png)
 
-### Table 1. Clinical Characteristics
+### Table 1. Clinical and Transcriptomic Characteristics
 
 ![Table 1](figures/table1.png)
 
